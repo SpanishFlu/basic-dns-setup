@@ -1,0 +1,85 @@
+body{ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; background-color: #222831;}
+.topnav {
+  background-color: #393E46;
+    overflow: hidden;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+  background-color: #ddd;
+    color: black;
+  }
+.topnav a.split {
+    float: right;
+    background-color: #00ADB5;
+    color: white;
+  }
+* {
+    box-sizing: border-box;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header {
+    padding: 120px; 
+    background: #222831; 
+    color: white; 
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+.header h1 {
+    font-size: 48px;
+  }
+.bgimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/3587447.jpg);
+    min-height: 100%;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 31px;
+  grid-row-gap: 28px;
+  text-align: center;
+  padding: 24px;
+  color: #393E46;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 3;}
+  .div3 { grid-area: 2 / 1 / 3 / 2;}
+  .div4 { grid-area: 2 / 2 / 3 / 3;}
+  .div5 { grid-area: 3 / 1 / 4 / 2;}
+  .div6 { grid-area: 3 / 2 / 4 / 3;}
+  .div7 { grid-area: 4 / 1 / 5 / 2;}
+  .div8 { grid-area: 4 / 2 / 5 / 3;}
+  .div9 { grid-area: 5 / 1 / 6 / 2;}
+  .div10 { grid-area: 5 / 2 / 6 / 3}
+
+  #bg {background-color: #EEEEEE;}
+  .parent img{width: 100%;}
+  .title{
+    padding: 10px;
+    text-align: left; 
+    color: #EEEEEE;
+  }
+  .title h1{font-size: 50px;}
+  .footer {
+    flex: 100%;
+    padding: 20px; 
+    text-align: center; 
+    background: #EEEEEE; 
+  }
+
+
+
